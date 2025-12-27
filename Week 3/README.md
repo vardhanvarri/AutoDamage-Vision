@@ -46,6 +46,9 @@ https://www.youtube.com/watch?v=N_PocrMHWbw&t=5s
 
 Also, if you want you can personally text us at any time to ask for more information or ask on the group (which will be more benficial for everyone). This week we will use a dataset from Kaggle which is the actual one for damage on vehicles. It is a very big dataset and for this week we don't need that many images. **You are required to figure out how to shrink that dataset, i.e. use a subset of images (use approximately 500 to 600 images from that data)**
 
+This is the link to the dataset: https://www.kaggle.com/datasets/hendrichscullen/vehide-dataset-automatic-vehicle-damage-detection
+Download the whole dataset on your system and do as required. 
+
 P.S. This course is a bit theory heavy but it is required. And since we have to fit everything in 5 weeks it will be a bit more load towards the end. Please approach us if you face any problems. 
 
 ---
