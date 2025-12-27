@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=ag3DLKsl2vk
 ## Note
 
 One thing to keep in mind about this week is that we are going into the fundamentals of CNN and how image recognition actually works. This requires knowledge of the previous 2 weeks. 
-So in this week the goal is to learn a bit about feature encoding, embedding and HOG and why CNNs replaced them. Then what actually is a convolution and how it all comes together to form the algorithms that we know today. **You can use LLMs for everything except generating code. Please make sure you understand everything properly**
+So in this week the goal is to learn a bit about feature encoding, embedding and HOG and why CNNs replaced them. Then what actually is a convolution and how it all comes together to form the algorithms that we know today. **You can use LLMs for everything except generating code. Please make sure you understand everything properly**. This week will also test some very fundamental knowledge of data science and which is why at any point if you face any issues, its good to discuss on the WhatsApp group. 
 
 This video briefly summarizes the history. I highly recommend watching it
 
