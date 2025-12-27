@@ -63,6 +63,6 @@ P.S. This course is a bit theory heavy but it is required. And since we have to 
 ---
 
 ## Submission
-- Two notebooks  
+- Three notebooks  
 - Clear visualizations  
 - Written explanations  
