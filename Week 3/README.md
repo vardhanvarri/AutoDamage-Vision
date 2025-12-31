@@ -13,7 +13,7 @@
 ## Theoretical Topics & Resources
 
 ### Image Encodings & HOG  
-https://www.youtube.com/watch?v=mp2raX3P1BU  
+https://youtu.be/XmO0CSsKg88?si=N9_WywIYlZNqq0PP
 
 ### CNN Embeddings vs Hand-Crafted Features  
 https://www.youtube.com/watch?v=FmpDIaiMIeA  
