@@ -1,97 +1,126 @@
 # Week 4 – Training & Evaluating an Object Detection Model
 
 ## Learning Goals
-- Train an object detection model on real-world data
-- Understand the end-to-end training pipeline
-- Learn how object detection models are evaluated
-- Perform qualitative and quantitative error analysis
+- Train an object detection model end-to-end
+- Understand how object detection models are evaluated
+- Learn to interpret metrics like Precision, Recall, IoU, and mAP
+- Analyze model predictions and failure cases
 
 ---
 
 ## What This Week Is About
-This week transitions from **understanding object detection** to **building a complete system**.
+This week focuses on **training and evaluation**, not architectural theory.
 
 You will:
 - Prepare a dataset for training
-- Train an object detection model
-- Evaluate model performance
-- Analyze model failures and limitations
+- Train a YOLO-based object detection model
+- Evaluate performance using standard detection metrics
+- Visually inspect predictions and understand model failures
 
-This week is **not about achieving high accuracy**, but about understanding *why models behave the way they do*.
+The goal is **understanding model behavior**, not maximizing accuracy.
 
 ---
 
-## Model Choice (Important)
-- **Week 3:** YOLOv3 was used for conceptual clarity and architectural understanding
-- **Week 4:** YOLOv8 is used for training due to its clean, stable, and beginner-friendly pipeline
+## Model Choice
+- **Week 3:** YOLOv3 was used for architectural clarity
+- **Week 4:** YOLOv8 is used for training due to:
+  - Stable implementation
+  - Minimal boilerplate
+  - Industry adoption
+  - Clean evaluation outputs
 
-The underlying ideas of object detection remain the same across versions.
+Concepts remain the same across YOLO versions.
 
 ---
 
 ## Core Topics & Resources
 
-### 1. Object Detection Training – High-Level Overview
-- YOLO explained simply  
-  https://www.youtube.com/watch?v=sv3txuThfmg
+---
 
-- How object detection models learn  
-  https://www.youtube.com/watch?v=rZl5dO0gK_s
+### 1. Object Detection – Training Overview
+
+📘 **Article**
+- How Object Detection Works (PyImageSearch)  
+  https://pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
+
+📘 **Article**
+- Object Detection Explained  
+  https://machinelearningmastery.com/object-recognition-with-deep-learning/
 
 ---
 
-### 2. Bounding Boxes & Intersection over Union (IoU)
-- IoU explained visually  
-  https://www.youtube.com/watch?v=NYoHDzQkU1Q
+### 2. Bounding Boxes & IoU
 
-- Object detection evaluation basics  
-  https://www.youtube.com/watch?v=FppOzcDvaDI
+📘 **Official Explanation**
+- Intersection over Union (IoU)  
+  https://www.analyticsvidhya.com/blog/2019/08/what-is-intersection-over-union-iou/
 
----
-
-### 3. Precision & Recall (Detection Context)
-- Precision vs Recall intuition  
-  https://www.youtube.com/watch?v=Z_p2bK2kLSo
-
-- Why accuracy is misleading for detection  
-  https://www.youtube.com/watch?v=R3P8xX1E9gE
+📘 **Visual Explanation**
+- IoU Explained Clearly  
+  https://www.v7labs.com/blog/intersection-over-union-guide
 
 ---
 
-### 4. YOLO Training (Practical)
-- Ultralytics YOLOv8 documentation  
+### 3. Precision, Recall & mAP (Detection Context)
+
+📘 **mAP Explained**
+- Mean Average Precision (mAP)  
+  https://blog.roboflow.com/mean-average-precision/
+
+📘 **Precision–Recall in Object Detection**
+- https://www.v7labs.com/blog/precision-recall-object-detection
+
+📘 **Why Accuracy Is Not Used**
+- https://towardsdatascience.com/accuracy-is-not-enough-59b1b1e87a4c
+
+---
+
+### 4. YOLOv8 Training & Evaluation
+
+📘 **Official Documentation**
+- Ultralytics YOLO Docs  
   https://docs.ultralytics.com
 
-- YOLOv8 training walkthrough  
-  https://www.youtube.com/watch?v=em_lO2ZXNfw
+📘 **Training Guide**
+- YOLOv8 Training Walkthrough  
+  https://docs.ultralytics.com/modes/train/
+
+📘 **Evaluation & Metrics**
+- YOLOv8 Validation  
+  https://docs.ultralytics.com/modes/val/
 
 ---
 
-### 5. Common Failure Modes in Object Detection
-- Why object detectors fail  
-  https://www.youtube.com/watch?v=0tGZC0F_v0Y
+### 5. Failure Modes in Object Detection
 
-- Small object & data bias issues  
-  https://www.youtube.com/watch?v=Yb2M0Yk9kGg
+📘 **Common Detection Errors**
+- https://blog.roboflow.com/failure-modes-object-detection/
+
+📘 **Small Objects & Bias**
+- https://www.v7labs.com/blog/object-detection-challenges
 
 ---
 
 ## Tasks
-- Prepare a small subset of the vehicle damage dataset
-- Train a YOLO-based object detection model
-- Evaluate the trained model using metrics and visualizations
+- Prepare dataset in YOLO format
+- Train a YOLOv8 object detection model
+- Evaluate using IoU, Precision, Recall, and mAP
+- Visualize predictions
 - Perform qualitative error analysis
 
 ---
 
-## Submission
-- Completed notebooks
-- Training logs or metrics
+## Submission Checklist
+- Trained model weights
+- Evaluation metrics
 - Prediction visualizations
-- Short written reflection on model behavior
+- Short reflection on:
+  - What worked
+  - What failed
+  - Why those failures occur
 
 ---
 
 ## Key Takeaway
-Training a model is easy.  
-Understanding **why it succeeds and fails** is the real learning outcome.
+Training a model is mechanical.  
+Understanding **why it fails** is the real skill.
