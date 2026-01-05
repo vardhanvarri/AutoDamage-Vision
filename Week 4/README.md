@@ -99,6 +99,7 @@ Concepts remain the same across YOLO versions.
 📘 **Small Objects & Bias**
 - https://www.v7labs.com/blog/object-detection-challenges
 
+** Suggestion to find YT videos relating to the topic that help you out.**
 ---
 
 ## Tasks
